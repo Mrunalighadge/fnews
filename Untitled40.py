@@ -4,8 +4,8 @@ import streamlit as st
 import pickle
 
 # Load model and vectorizer
-model = pickle.load(open("model.pkl", "rb"))
-vectorizer = pickle.load(open("vectorizer.pkl", "rb"))
+model = pickle.load(open("random_forest_modell.pkl", "rb"))
+vectorizer = pickle.load(open("tfidf_vectorizerr.pkl", "rb"))
 
 # Streamlit application
 st.title("Fake News Detection")
